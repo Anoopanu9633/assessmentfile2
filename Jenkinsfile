@@ -17,7 +17,7 @@ pipeline
         {
             steps 
             {
-                bat "mvn package -f assessmentfile22"
+                bat "mvn package -f assessmentfile2"
             }
         }
       
