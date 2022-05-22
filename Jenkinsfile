@@ -7,9 +7,9 @@ pipeline
         {
             steps
             {
-              // bat "rmdir  /s /q assesmentfile2"
-               bat "git clone https://github.com/Anoopanu9633/assesmentfile2.git"
-                bat "mvn clean -f assesmentfile2"
+              // bat "rmdir  /s /q assessmentfile2"
+               bat "git clone https://github.com/Anoopanu9633/assessmentfile2.git"
+                bat "mvn clean -f assessmentfile2"
             }
         }
        
@@ -17,7 +17,7 @@ pipeline
         {
             steps 
             {
-                bat "mvn package -f assesmentfile2"
+                bat "mvn package -f assessmentfile22"
             }
         }
       
